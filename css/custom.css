@@ -1,17 +1,17 @@
 :root {
   /* Colours */
-  --color-bg: #cfceca; /* page background /*
+  --color-bg: #92a9a3; /* page background /*
 
   /* Header */
-  --color-head-bg: #625e5c;
+  --color-head-bg: #39311c;
 
   /* Logotype */
-  --color-logotype-bg: #2a2828;
-  --color-text-logotype: #c1bfb8;
-  --font-logotype-size: 1rem;
+  --color-logotype-bg: #92a9a3;
+  --color-text-logotype: #000000;
+  --font-logotype-size: 35px;
 
   /* Global menu */
-  --color-menu-bg: #5a5b5e;
+  --color-menu-bg: #92a9a3;
   /* Links */
   --color-link-bg: #78766e;
   --color-link-hover: #fff; /* used */
@@ -37,7 +37,7 @@
   --border-radius: 5px;
 
   /* Cards */
-  --color-card-bg: #8a8585;
+  --color-card-bg: #f2edd0;
   --color-cta-card-bg: #d5d2d0;
   /* news-cards */
   --color-news-bg: #dbdad4;
@@ -46,11 +46,11 @@
   --color-cta-newscard-bg-inverted: #7b7d83;
 
   /* Fonts */
-  --font-family-sans: ui-sans-serif;
-  /* --font-weight-light: 300;
+  --font-family-sans: "Rubik", ui-sans-serif;
+  --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
-  --font-weight-bold: 700; */
+  --font-weight-bold: 700;
 
   /* Text sizes */
   --logotype-size: 1rem;
