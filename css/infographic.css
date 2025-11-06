@@ -40,3 +40,10 @@
 .info-box:nth-of-type(2n) {
   background-color: var(--color-infobox-2-bg);
 }
+
+.info-graphic {
+  background-color: #f2edd0;
+}
+.info-text {
+  background-color: #f2edd0;
+}
