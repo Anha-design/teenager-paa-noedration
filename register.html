@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
-    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
   </head>
@@ -19,7 +19,8 @@
     <header>
       <nav>
         <div id="logotype-wrapper" class="logo">
-          <a href="index.html"> LOGO-TYPE </a>
+          <img src="svg/Daase-01.svg" alt="dåse logo" class="svglogo" />
+          <a href="index.html"> Teenager på Nødration </a>
         </div>
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
@@ -37,10 +38,34 @@
       <h1>INDBERET</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h2>
+            Få opskfter og tips til at håndtere din teenager imens verden går
+            under
+          </h2>
+          <p>
+            Hvis du gerne vil vide, om din teenagers frontallap faktisk kan
+            bruges til noget, hvordan man laver mad på tre ingredienser og nul
+            elektricitet, eller om lyden fra værelset er en zombie eller bare
+            dit barn… Så skriv dig op her – vi sender alt det vigtigste til dig,
+            før nogen når at bide dig.
+          </p>
         </article>
-        <form id="webform"></form>
+
+        <form id="webform">
+          <p id="error_e-mail">Intast e-mail</p>
+          <label for="e-mail"></label>
+          <input aria-describedby="error_e-mail" type="email" name="e-mail" />
+
+          <p id="error_first_name">Indtast fornavn</p>
+          <label for="e-mail"></label>
+          <input aria-describedby="error_first_name" name="first_name" />
+
+          <p id="error_last_name">Indtast efternavn</p>
+          <label for="last_name"></label>
+          <input aria-describedby="error_last_name" name="last_name" />
+
+          <button type="submit">Send</button>
+        </form>
       </section>
       <section id="form-summary">
         <h2>Summary</h2>
@@ -76,6 +101,7 @@
       </nav>
     </footer>
     <script src="js/burger.js"></script>
+    <script src="js/forms.js"></script>
     <!-- <script src="js/main.js"></script> -->
   </body>
 </html>
