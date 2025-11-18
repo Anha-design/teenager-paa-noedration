@@ -4,15 +4,17 @@
   --color-bg: light-dark(#92a9a3, #282213);
 
   /* Header */
-  --color-head-bg: #39311c;
+  --color-head-bg: light-dark(#282213, #282213);
 
   /* Logotype */
-  --color-logotype-bg: #92a9a3;
-  --color-text-logotype: #000000;
+  --color-logotype-bg: light-dark(#92a9a3, #282213);
+  --color-logotype-bg: url("../rough-metallic-surface-texture.png");
+  --color-text-logotype: light-dark(#282213, #f2edd0);
   --font-logotype-size: 35px;
 
   /* Global menu */
-  --color-menu-bg: #92a9a3;
+  --color-menu-bg: light-dark(#92a9a3, #282213);
+
   /* Links */
   --color-link-bg: #78766e;
   --color-link-hover: #fff; /* used */
