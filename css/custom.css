@@ -1,6 +1,7 @@
 :root {
   /* Colours */
-  --color-bg: #92a9a3; /* page background /*
+
+  --color-bg: light-dark(#92a9a3, #282213);
 
   /* Header */
   --color-head-bg: #39311c;
@@ -27,7 +28,7 @@
   --color-headline-text-page: #42413d;
 
   /* Tekst */
-  --color-text: #000;
+  --color-text: light-dark(#000, #f2edd0);
   --color-text-inverted: #cdccc4;
 
   /*  Marginer */
