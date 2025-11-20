@@ -6,6 +6,7 @@
   padding: 40px 0 40px 20px;
   border-radius: var(--border-radius);
   height: minmax(200px, min-content);
+  border-radius: 20px;
 }
 .daily_text {
   display: grid;

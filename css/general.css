@@ -20,8 +20,8 @@ html.dark {
 /* dark/light mode slut */
 
 #main-disclamer {
-  height: 225px;
-  background-color: var(--color-head-bg);
+  height: 125px;
+  background-color: var(--color-head-b);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -41,10 +41,10 @@ main section {
 }
 
 h1 {
-  font-size: var(--font-h1-size);
+  font-size: var(30px);
   font-weight: var(--font-weight-bold);
   color: var(--color-text-inverted);
-  margin: 5px 0;
+  margin: 50px 0;
   line-height: 1.3rem;
   text-align: left;
 }
@@ -110,7 +110,15 @@ nav a {
   height: 3.6rem;
 }
 
-
+/* Logo */
+#logo {
+  max-height: 90px;
+  transform: rotate(-13deg);
+  margin-top: 20px;
+}
+svg .cls-1 {
+  stroke: light-dark(#282213, #f2edd0);
+}
 
 #logotype-wrapper > a {
   color: var(--color-text-logotype);
@@ -125,9 +133,10 @@ header nav li a {
   margin: 1.5rem;
   background-color: var(--color-link-bg);
   color: var(--color-text);
+  color: #f2edd0;
   font-size: var(--followup-text-size);
   padding: 0.5rem 1rem;
-  border-radius: var(--border-radius-links);
+  border-radius: 20px;
 }
 
 /* Pilen efter menu-tekst */

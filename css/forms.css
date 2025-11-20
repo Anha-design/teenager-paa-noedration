@@ -1,12 +1,12 @@
 #webform {
-  background-color: (#f2edd0);
+  background-color: (#df4381);
   margin-top: 60px;
 }
 
 #form-section,
 #form-summary {
   background-color: var(--info-background-color);
-  padding: 0;
+  padding: 20px;
 }
 #form-summary h2 {
   line-height: 3rem;

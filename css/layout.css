@@ -20,6 +20,11 @@ main {
 #instruction main {
   grid-template-rows: min-content min-content min-content 1fr min-content;
 }
+
+#warning {
+  max-width: 60px;
+  max-height: 60px;
+}
 /* LAYOUT FOR HEADER AND FOOTER */
 footer {
   display: grid;
