@@ -4,17 +4,13 @@
   --color-bg: light-dark(#92a9a3, #282213);
 
   /* Header */
-  --color-head-bg: light-dark(#282213, #282213);
+  /* --color-head-bg: light-dark(#282213, #282213); */
 
   /* Logotype */
   --color-logotype-bg: light-dark(#92a9a3, #282213);
   --color-logotype-bg: url("../rough-metallic-surface-texture.png");
   --color-text-logotype: light-dark(#282213, #f2edd0);
   --font-logotype-size: 35px;
-
-  /* Logo */
-  
-  
 
   /* Global menu */
   --color-menu-bg: light-dark(#92a9a3, #282213);
@@ -28,20 +24,20 @@
   /* Headlines og rubrik */
   --font-h1-size: 1rem;
   --font-sub1-size: 1rem;
-  --font-h2-size: 1rem;
+  --font-h2-size: 22px;
   --font-h3-size: 1rem;
   --color-headline-bg: #4b4545;
-  --color-headline-text-page: #42413d;
+  --color-headline-text-page: light-dark(#92a9a3, #282213);
 
   /* Tekst */
   --color-text: light-dark(#000, #f2edd0);
-  --color-text-inverted: #cdccc4;
+  --color-text-inverted: light-dark(#282213, #f2edd0);
 
   /*  Marginer */
   --margin-head-bottom: 5px;
 
   /* Borders */
-  --border-radius: 5px;
+  --border-radius: 10px;
 
   /* Cards */
   --color-card-bg: #f2edd0;
@@ -70,7 +66,11 @@
   --form-submit-size: 1rem;
 
   /* Infographics */
-  --color-info-bg: #676161;
+  --color-info-bg: light-dark(#f2edd0, #71664c9f);
+
   --color-infobox-1-bg: #cfcec6;
   --color-infobox-2-bg: #969995;
+
+  /* forms bokse */
+  --info-background-color: light-dark(#f2edd0, #282213c7);
 }
