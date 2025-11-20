@@ -27,7 +27,7 @@ main {
 }
 /* LAYOUT FOR HEADER AND FOOTER */
 footer {
-  display: grid;
+  /* display: grid; */
   gap: 10px;
 }
 header nav,

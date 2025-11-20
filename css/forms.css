@@ -36,3 +36,10 @@
   max-width: 60px;
   rotate: -10deg;
 }
+
+.spiser {
+  width: 500px;
+  height: 500px;
+  transform: scale(0.8); /* 80% af original størrelse = 40% mindre */
+  transform-origin: top left; /* Valgfrit: så det ikke skalerer fra midten */
+}

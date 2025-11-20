@@ -4,7 +4,7 @@
   --color-bg: light-dark(#92a9a3, #282213);
 
   /* Header */
-  /* --color-head-bg: light-dark(#282213, #282213); */
+  --color-head-b: light-dark(#92a9a3, #282213);
 
   /* Logotype */
   --color-logotype-bg: light-dark(#92a9a3, #282213);
@@ -26,12 +26,12 @@
   --font-sub1-size: 1rem;
   --font-h2-size: 22px;
   --font-h3-size: 1rem;
-  --color-headline-bg: #4b4545;
-  --color-headline-text-page: light-dark(#92a9a3, #282213);
+  --color-headline-bg: #3a3416;
+  --color-headline-text-page: #e6090991;
 
   /* Tekst */
   --color-text: light-dark(#000, #f2edd0);
-  --color-text-inverted: light-dark(#282213, #f2edd0);
+  --color-text-inverted: light-dark(#f2edd0, #f2edd0);
 
   /*  Marginer */
   --margin-head-bottom: 5px;
@@ -41,9 +41,9 @@
 
   /* Cards */
   --color-card-bg: #f2edd0;
-  --color-cta-card-bg: #d5d2d0;
+  --color-cta-card-bg: #39311c;
   /* news-cards */
-  --color-news-bg: #dbdad4;
+  --color-news-bg: #f2edd0;
   --color-news-bg-inverted: #585a5e;
   --color-cta-newscard-bg: #787473;
   --color-cta-newscard-bg-inverted: #7b7d83;

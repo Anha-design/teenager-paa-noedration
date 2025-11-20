@@ -20,7 +20,7 @@ html.dark {
 /* dark/light mode slut */
 
 #main-disclamer {
-  height: 125px;
+  height: 6px;
   background-color: var(--color-head-b);
   display: flex;
   justify-content: flex-start;
@@ -28,6 +28,7 @@ html.dark {
   padding-left: 2rem;
   padding-bottom: 2%;
   margin-bottom: var(--margin-head-bottom);
+  margin-top: 30px;
 }
 
 #main-disclamer-content {
@@ -41,7 +42,7 @@ main section {
 }
 
 h1 {
-  font-size: var(30px);
+  font-size: 25px;
   font-weight: var(--font-weight-bold);
   color: var(--color-text-inverted);
   margin: 50px 0;
@@ -114,7 +115,8 @@ nav a {
 #logo {
   max-height: 90px;
   transform: rotate(-13deg);
-  margin-top: 20px;
+  max-width: 60px;
+  margin-left: 35px;
 }
 svg .cls-1 {
   stroke: light-dark(#282213, #f2edd0);
