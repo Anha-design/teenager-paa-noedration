@@ -92,3 +92,8 @@
   content: "\2192";
   margin-left: 1rem;
 }
+
+.teasersvg {
+  max-width: 230px;
+  max-height: 200px;
+}
